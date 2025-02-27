@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* header */
+header .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0px;
+    border-bottom: 2px solid white;
+    background-color: grey;
+}
+
+header .container .logo {
+    color: white;
+    font-size: 18px;
+}
+
+header .container .logo span {
+    color: #26de81;
+    font-weight: bold;
+}
+
+header .menu ul {
+   display: flex;
+   gap: 15px;
+}
+
+header .menu ul li {
+    list-style: none;
+}
+
+header .menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header .menu ul li a:hover {
+    color: #26de81;
+}
+
+header .sign-in-up-btn .register a{
+    text-decoration: none;
+    color: white;
+}
+
+header .sign-in-up-btn .register {
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    color: white;
+    background-color: #20bf6b;
+    border-radius: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+header .sign-in-up-btn .register:hover {
+    border: 2px solid white;
+}
+
+header .sign-in-up-btn .login a{
+    text-decoration: none;
+    color: white;
+}
+
+header .sign-in-up-btn .login {
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    color: white;
+    background-color: #20bf6b;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+header .sign-in-up-btn .login:hover {
+    border: 2px solid white;
+}
+
+/* main */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    padding: 120px 120px;
+    background-color: gray;
+    color: white;
+    gap: 15px;
+}
+
+.main-content .content {
+    width: 40%;
+}
+
+.main-content .content h1 {
+    margin: 10px 0px;
+}
+
+.main-content .get-started-btn {
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    color: white;
+    background-color: #20bf6b;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main-content .get-started-btn:hover {
+    border: 2px solid white;
+}
+
+
+/* sections */
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0px;
+    gap: 20px;
+}
+
+.section1 h4 {
+    text-align: center;
+    font-size: 20px;
+    color: grey;
+}
+
+.section1 .subject-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.section1 .subject-boxes .box-1 {
+    background-color: #20bf6b;
+    color: white;
+    border-radius: 5px;
+    padding: 20px 10px;
+    border: 1px solid transparent;
+}
+
+.section1 .subject-boxes .box-1 h3 {
+    font-size: 18px;
+}
+
+
+
+.section1 .subject-boxes .box-2 {
+    background-color: #20bf6b;
+    color: white;
+    border-radius: 5px;
+    padding: 20px 10px;
+    border: 1px solid transparent;
+}
+
+.section1 .subject-boxes .box-2 h3 {
+    font-size: 18px;
+}
+
+
+.section1 .subject-boxes .box-3 {
+    background-color: #20bf6b;
+    color: white;
+    border-radius: 5px;
+    padding: 20px 10px;
+    border: 1px solid transparent;
+}
+
+.section1 .subject-boxes .box-3 h3 {
+    font-size: 18px;
+}
+
+.section1 .subject-boxes .box-4 {
+    background-color: #20bf6b;
+    color: white;
+    border-radius: 5px;
+    padding: 20px 10px;
+    border: 1px solid transparent;
+}
+
+
+/* footer */
+.useful-link-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0px;
+    background-color: grey;
+    color: white;
+    gap: 80px;
+}
+
+.useful-link-container .one {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 20%;
+}
+
+
+.useful-link-container .one .logo{
+    font-size: 18px;
+}
+
+.useful-link-container .one .logo span {
+     color: #26de81;
+     font-weight: bold;
+}
+
+.useful-link-container .one .handles {
+    display: flex ;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.useful-link-container .one .handles a {
+    text-decoration: none;
+    color: white;
+}
+
+.useful-link-container .one .handles a:hover {
+    color: #26de81;
+}
+
+
+/* footer two  */
+.useful-link-container .two p {
+    margin-bottom: 15px;
+}
+
+.useful-link-container .two .links {
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+}
+
+.useful-link-container .two .links a {
+    color: white;
+    text-decoration: none;
+}
+
+.useful-link-container .two .links a:hover {
+    color: #26de81;
+}
+
+
+/* footer three  */
+
+.useful-link-container .three p {
+    margin-bottom: 15px;
+}
+
+.useful-link-container .three .links{
+   display: flex ;
+   flex-direction: column;
+   gap: 10px;
+}
+
+.useful-link-container .three .links a {
+    color: white;
+    text-decoration: none;
+}
+
+.useful-link-container .three .links a:hover {
+    color: #26de81;
+}
+
+
+/* lower footer  */
+footer .lower-footer .copyright-text {
+    text-align: center;
+    color: white;
+    padding: 10px 0px;
+    background-color: grey;
+    border-top: 2px solid white;
+
+}
+
+
+/* Register page style  */
+
+form {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.557);
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+    border-radius: 5px;
+    padding: 10px 5px;
+    background-color: transparent;
+    border: none;
+    gap: 10px;
+    color: white;
+}
+
+.form-container h1 {
+    font-weight: 500;
+    font-size: 28px;
+    color: #26de81;
+}
+
+.form-container input {
+    width: 100%;
+    padding: 4px 0px;
+    border-radius: 4px;
+    border: 1px solid grey;
+}
+
+.form-container label {
+    font-size: 16px;
+}
+
+.form-container .submit {
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    color: white;
+    background-color: #20bf6b;
+    border-radius: 5px;
+    cursor: pointer;    
+}
+
+.form-container .submit:hover {
+    border: 2px solid white;
+}
+
+
+
+/* Login form                               */
+
