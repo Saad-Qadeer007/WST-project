@@ -2,109 +2,82 @@
 <html lang="en">
 
 <head>
-    <title>Educational - Website</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <title>WST - Assignment no 1 - Portfolio Website </title>
 </head>
 
 <body>
     <header>
-        <nav class="container">
-            <div class="logo">
-                <span>Edu</span>ca
-            </div>
-            <div class="menu">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Courses</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
-            <div class="sign-in-up-btn">
-                <button class="register"><a href="Register.html">Register</a></button>
-                <button class="login"><a href="Login.html">Login</a></button>
-            </div>
+        <nav class="bg-black text-white p-4">
+            <ul class="flex gap-8 justify-center">
+                <li><a class="hover:text-gray-300" href="#">Home</a></li>
+                <li><a class="hover:text-gray-300" href="#">About</a></li>
+                <li><a class="hover:text-gray-300" href="#">Skills</a></li>
+            </ul>
         </nav>
     </header>
-
     <main>
-        <div class="main-content">
-            <div class="content">
-                <h1>The Best Courses You Will Find Here!</h1>
-                <p>We’re a nonprofit with the mission to provide a free, world-class education for anyone, anywhere.</p>
-            </div>
-            <div>
-                <button class="get-started-btn">
-                    Get Started
-                </button>
-            </div>
+        <div class="section1 p-[25px] bg-gray-200">
+            <h1 class="text-center text-3xl">About Me</h1>
+            <p class="w-full md:w-[60%] mx-auto">I am a developer with a passion for learning and building. I specialize in
+                front-end development using HTML, CSS, and JavaScript. I enjoy creating user-friendly websites and
+                applications that solve real-world problems</p>
         </div>
 
-        <div class="section1">
-            <div>
-                <h4>Our Top Subjects</h4>
-            </div>
-            <div class="subject-boxes">
-                <div class="box-1">
-                    <h3>Graphics Design</h3>
-                    <p>12 modules</p>
+
+        <div class="section2">
+            <h1 class="text-center text-3xl">Projects</h1>
+            <div class="cards flex flex-col md:flex-row  gap-8 justify-center items-center pt-4">
+                <div class="one w-[100%] md:w-[25%] p-2 ">
+                    <div class="image1 w-[200px]">
+                        <img class="rounded-[5px] w-[100%]" src="download.jpg" alt="Ecommerce-site">
+                    </div>
+                    <div class="project-des">
+                        <h3 class="font-bold">Travel Website</h3>
+                        <p>Providing an easy way for customers to buy tickets online.</p>
+                        <button
+                            class="border border-black px-[20px] py-[10px] rounded-[5px] mt-2 hover:bg-gray-400 hover:text-white hover:border-transparent pointer"><a
+                                href="#">View</a></button>
+                    </div>
                 </div>
-                <div class="box-2">
-                    <h3>Web Design</h3>
-                    <p>12 modules</p>
+                 <!-- project 2 -->
+                 <div class="one w-[100%] md:w-[25%] p-2 ">
+                    <div class="image1 w-[200px]">
+                        <img class="rounded-[5px] w-[100%]" src="homepage-seen-computer-screen (1).jpg" alt="hotel-pic">
+                    </div>
+                    <div class="project-des">
+                        <h3 class="font-bold">Hotel Website</h3>
+                        <p>Providing user a convinent way to book hotel in just one click.</p>
+                        <button
+                            class="border border-black px-[20px] py-[10px] rounded-[5px] mt-2 hover:bg-gray-400 hover:text-white hover:border-transparent pointer"><a
+                                href="#">View</a></button>
+                    </div>
                 </div>
-                <div class="box-3">
-                    <h3>Mathmatics</h3>
-                    <p>12 modules</p>
-                </div>
-                <div class="box-4">
-                    <h3>Enginnering</h3>
-                    <p>12 modules</p>
-                </div>
+
 
             </div>
         </div>
-
 
     </main>
 
-    <footer>
-        <div class="useful-link-container">
-            <div class="one">
-                <p class="logo"><span>Edu</span>ca</p>
-                <p>If you want to follow us just click on the social media handles </p>
-                <div class="handles">
-                    <a href="#">Facebook</a>
-                    <a href="#">Instagram</a>
-                    <a href="#">LinkedIn</a>
-                </div>
-            </div>
-            <div class="two">
-                <p>Quick Links</p>
-                <div class="links">
-                    <a href="#">Home</a>
-                    <a href="#">About</a>
-                    <a href="#">Courses</a>
-                    <a href="#">Contact</a>
-                </div>
-            </div>
-            <div class="three">
-                <p>Useful Links</p>
-                <div class="links">
-                    <a href="#">Ask Questions</a>
-                    <a href="#">Help Center</a>
-                    <a href="#">Send Feedbacks</a>
-                    <a href="#">Privacy Policy</a>
-                </div>
-            </div>
-        </div>
 
-        <div class="lower-footer">
-            <div class="copyright-text">
-                Copyright 2025 All Rights Reserved
-            </div>
+
+    <footer class="flex flex-col md:flex-row gap-4 md:gap-0 text-white bg-black mt-8 p-4 justify-around items-center">
+        <div class="contact">
+            <p>Contact me : <a class="hover:text-blue-700" href="#">saadqadeer1234@gmail.com</a></p>
+        </div>
+        <div class="social-icons flex gap-4">
+            <a class="hover:text-gray-300" href="#">Facebook</a>
+            <a class="hover:text-gray-300" href="#">Instagram</a>
+            <a class="hover:text-gray-300" href="#">LinkedIn</a>
+            <a class="hover:text-gray-300" href="#">Whatsapp</a>
         </div>
     </footer>
+    
+    
+
 </body>
 
 </html>
